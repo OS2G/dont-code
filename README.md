@@ -1,6 +1,6 @@
-# Don't code: A guide for non-programmers on making code work for you. 
+# Don't code: using programs without programming 
 
-- [`git` Good: how to do version control](#git-good-how-to-do-version-control)
+- [Don't code: using programs without programming](#dont-code-using-programs-without-programming)
   - [What is it?](#what-is-it)
   - [History](#history)
   - [How does one get it?](#how-does-one-get-it)
