@@ -14,10 +14,17 @@
         - [Mac](#mac)
         - [Linux](#linux)
       - [Pip Package Manager](#pip-package-manager)
+      - [Verify Environment](#verify-environment)
     -  [Executing Source Code: Youtube-dl](#executing-source-code-youtube-dl)
         -  [Installing Youtube-dl](#installing-youtube-dl)
-
-This tutorial and reference is in no way exhaustive. However, we do hope you still find it useful. Start here, however if you can't find the answer to your question *~~Google~~ DuckDuckGo is your friend*.
+        -  [Youtube-dl Command Line Usage](#youtube-dl-command-line-usage)
+        -  [Skimming Manuals](#skimming-manuals)
+    -  [Debugging] (#debugging)
+        -  [Finding Known Good Components](#finding-known-good-components)
+        -  [Tips on Googling Errors](#tips-on-googling-errors)
+        -  [Ask Questions: Developer Communities](#ask-questions-developer-communities)
+  -[Next Steps From Here](#next-steps-from-here)
+Mitch needs to write stuff here!
 
 ## When to code?
 
@@ -59,23 +66,40 @@ This depends entirely on your distribution, lots of variety (maybe cover how to 
 #### Pip Package Manager
 Pip allows you to use python libraries, which are awesome. Installing pip opens up lots of doors. Doesn't make sense to have subsections for this given it's probably a single command line command to make it work.
 
+#### Verify Environment
+This section explains why you'd want to verify all the above stuff worked correctly (debugging purposes, knowing which versions of stuff you installed, checking that pathing is good).
+``` python --version ``` will tell you which version of python is being used when you use the "python" command.
+``` pip --version ``` will tell you which version of pip is being used when you use the "pip" command.
+
 ### Executing Source Code: Youtube-dl
 This section explains how we figured out how to get youtube-dl on our machine and how to figure out/learn its usage.
 
 #### Installing Youtube-dl
+This section explains why we're using pip to install Youtube-dl (convenience) and how to do so.
+``` [sudo] pip install youtube-dl ```
+
+#### Youtube-dl Command Line Usage
+This section details a few basic usages of Youtube-dl. 
+
+#### Skimming Manuals
+This section explains how to search documentation for the specific issues 
+
+### Debugging
+Stuff breaks. This section details how to patch it together
+
+        -  [Finding Known Good Components](#finding-known-good-components)
+        -  [Tips on Googling Errors](#tips-on-googling-errors)
+        -  [Ask Questions: Developer Communities](#ask-questions-developer-communities)
 
 
-Everything below this stayed for the sake of convenient templating
+#### Finding Known Good Components
+This section covers basic reverse engineering and how to trace back the root cause of an error you are experiencing.
 
+#### Tips on Googling Errors
+This section details how to increase or decrease the specificity of an error you are currently trying to understand.
 
-##### Debian based
+#### Ask Questions: Developer Communities
+When you can't figure out the answers (or what questions to ask), generally phoning a friend is the way to go. This section is meant to help people understand how to find the relevant communities for a particular problem they are currently working on.
 
-```
-sudo apt install git
-```
-
-##### Arch based
-
-```
-sudo pacman -S git
-```
+## Next Steps From Here
+Find usecases you care about and try to find code that does them! Lots of room in this space, feel welcome to submit PRs!
