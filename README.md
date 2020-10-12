@@ -4,9 +4,9 @@
   - [When to code?](#when-to-code)
   - [Identifying your needs](#identifying-your-needs)
   - [Key Components](#key-components)
-    -[Runtime Environment]
-    -[Executing the Source Code]
-    -[Debugging]
+     - [Runtime Environment](#runtime-environment)
+     - [Executing the Source Code](#executing-the-source-code)
+     - [Debugging](#debugging)
   - [Demonstration: Safely Downloading MP3s from Youtube](#demonstration-safely-downloading-mp3s-from-youtube)
     - [Runtime Environment: Python and Pip installation](#runtime-environment-python-and-pip-installation)
       - [Getting Python](#getting-python)
@@ -19,12 +19,13 @@
         -  [Installing Youtube-dl](#installing-youtube-dl)
         -  [Youtube-dl Command Line Usage](#youtube-dl-command-line-usage)
         -  [Skimming Manuals](#skimming-manuals)
-    -  [Debugging] (#debugging)
+    -  [Debug Issues](#debug-issues)
         -  [Finding Known Good Components](#finding-known-good-components)
         -  [Tips on Googling Errors](#tips-on-googling-errors)
         -  [Ask Questions: Developer Communities](#ask-questions-developer-communities)
   -[Next Steps From Here](#next-steps-from-here)
-Mitch needs to write stuff here!
+  
+TBD: Add an overview of this document and the purpose it serves.
 
 ## When to code?
 
@@ -84,13 +85,8 @@ This section details a few basic usages of Youtube-dl.
 #### Skimming Manuals
 This section explains how to search documentation for the specific issues 
 
-### Debugging
-Stuff breaks. This section details how to patch it together
-
-        -  [Finding Known Good Components](#finding-known-good-components)
-        -  [Tips on Googling Errors](#tips-on-googling-errors)
-        -  [Ask Questions: Developer Communities](#ask-questions-developer-communities)
-
+### Debug Issues
+Stuff breaks. This section shows how to use the general tips from the debugging section specifically for/on this particular usecase (youtube-dl)
 
 #### Finding Known Good Components
 This section covers basic reverse engineering and how to trace back the root cause of an error you are experiencing.
