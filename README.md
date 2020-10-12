@@ -1,8 +1,8 @@
-# Don't code: using programs without programming 
+# Don't code: how to use existing programs
 
-- [Don't code: using programs without programming](#dont-code-using-programs-without-programming)
-  - [What is it?](#what-is-it)
-  - [History](#history)
+- [Don't code: how to use existing programs](#dont-code-how-to-use-existing-programs)
+  - [When to code?](#when-to-code)
+  - [Identifying your needs](#identifying-your-needs)
   - [How does one get it?](#how-does-one-get-it)
     - [Command-line Solutions](#command-line-solutions)
       - [Linux](#linux)
@@ -12,13 +12,13 @@
 
 This tutorial and reference is in no way exhaustive. However, we do hope you still find it useful. Start here, however if you can't find the answer to your question *~~Google~~ DuckDuckGo is your friend*.
 
-## What is it?
+## When to code?
 
 First, you need to know what `git` is and why you need it. It's not the only solution on the market, but it's one of the most popular. Source-control management (SCM) is a way to manage source code. If you ever have code you need to share with others, post online, or keep a history of, you will want an SCM. In the past, people would just self version files and hope they don't get mixed up, or they would just share code via emails and the likes. This it not a great way of doing things and gets quickly out of hand.
 
 That's why we use and SCM and why we use `git`. To keep track of your code and changes, and to allow for others to collaborate on code. As long as everyone follows proper `git` etiquette, then there's usually nothing that goes wrong. It's easy to see when and what someone changed in the history and whether it's the reason your program no longer compiles. You can integrate repositories with build systems as well so you can automate testing and building of new code, as well as deploy changes quickly. It's the reason people in the industry use it.
 
-## History
+## Identifying Your Needs
 
 Every program has a purpose and a story. `git` was "lovingly" created out of the need for a better way to manage code and code history. By better, I mean free and open source. The Linux kernel was previously using BitKeeper, a proprietary SCM system that they had been using to maintain the project since 2002. The copyright holder of BitKeeper, Larry McVoy, had withdrawn free use of the product after claiming that Andrew Tridgell had created SourcePuller by reverse engineering the BitKeeper protocols. The same incident also spurred the creation of another version-control system, Mercurial (`hg`). It's been maintained since 2005.
 
