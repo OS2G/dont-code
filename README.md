@@ -52,20 +52,42 @@ Stuff breaks. This sections explains common ways to make things work.
 Legal disclaimer will go here, also explains why this simple tutorial was chosen.
 
 ### Runtime Environment: Python and Pip installation
-This area explains that we're installing Python and Pip to accomplish the usecase and how we figured out that we'd need it (RTFM)
+This area explains that we're installing Python and Pip to accomplish the usecase and how we figured out that we'd need it (RTFM) Should also cover the value/utility in having a package manager like Chocolatey for Homebrew
+
+In order to complete our projects, we need to create what's known as a runtime environment. In essence, it's gathering all the required tools and preparing your computer to be able to run a program - similar to gathering all the required ingredients, appliances, and utensils needed to make a meal. For this demonstration we will need two things: the Python programming language and Python's package manager, Pip.
+
+You're probably familiar with what a programming language is, but a package manager may be more foreign. Package managers are basically a one-stop shop for software. You don't need to worry about independently upgrading software, resolving dependency issues (what other software your software needs to run), or what order things must be installed in. All of this is taken care of by the package manager. There are different package managers out there for different use cases, but the one we are focusing on is Pip which manages software libraries written in Python. We'll go over installing both of these things below.
+
 
 #### Getting Python
-Python was chosen as a great starting point in this tutorial because it's incredibly well known, easy to learn as a language, and very well documented. There's also a large userbase to ask questions. Should also cover the value/utility in having a package manager like Chocolatey for Homebrew
+Python was chosen as a great starting point in this tutorial because it's incredibly well known, easy to learn as a language, and very well documented. There's also a large userbase to ask questions.
+
 ##### Windows
-Brief guide explaining how to install Python on Windows (probably just a link)
+Installing Python on Windows is very straightforward.
+ 1. Follow this link that brings you to the download page for Windows: https://www.python.org/downloads/windows/
+ 2. Click on the latest stable release for Python 3
+ 3. Scroll to the bottom of the page where the files to download are listed and download the `Windows x86-64 executable installer`
+ 4. Install the program just selecting the defaults as you go through the menus
+
 ##### Mac
 Most likely just comes baked in, may need to deal with X-Code nonsense
+
 ##### Linux
+Python comes pre-installed on many distributions of Linux. Check to make sure it's there by entering `python --version` into your terminal. Python 2 or 3 will work for this demonstration. If you get a reply that Python is not installed on your computer, install it with the following commands (for an Ubuntu-based distribution):
+```
+$ sudo apt update
+$ sudo apt install python3.6
+```
+It should be noted, if you have Python already installed on your Linux machine, it's most likely Python 2. If you decide to install Python 3 alongside, how you use Python on the terminal will be different:
+`$ python` will bring up Python 2
+`$ python3` will bring up Python 3
 
-This depends entirely on your distribution, lots of variety (maybe cover how to install on ubuntu or link to some other tutorial)
+For other distributions that do not use the apt package manager, you will have to Google how to install it.
 
-#### Pip Package Manager
+#### Installing Pip Package Manager
 Pip allows you to use python libraries, which are awesome. Installing pip opens up lots of doors. Doesn't make sense to have subsections for this given it's probably a single command line command to make it work.
+
+
 
 #### Verify Environment
 This section explains why you'd want to verify all the above stuff worked correctly (debugging purposes, knowing which versions of stuff you installed, checking that pathing is good).
