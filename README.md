@@ -5,6 +5,12 @@ This guide shows how to use programs with zero knowledge of programming. The lon
 By the end of this tutorial, you will have downloaded, installed, and used the youtube-dl python library on your local machine.
 
 If you learn best by doing, start at the Demonstration section. Reference the Key Components section if you have issues you can't figure out.
+
+If you already have Python installed, this guide boils down to two lines of code:
+```
+python3 -m pip install youtube-dl
+youtube-dl [copy and paste the video link here]
+```
 DISCLAIMER: Legalese saying you are responsible for using this library legally. Will ask a lawyer.
 
 - [Don't code: Using existing programs](#dont-code-using-existing-programs)
