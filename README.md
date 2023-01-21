@@ -142,6 +142,11 @@ This section explains why we're using pip to install Youtube-dl (convenience) an
 #### Youtube-dl Command Line Usage
 This section details a few basic usages of Youtube-dl. 
 
+Ideal usage: youtube-dl -f best -x --audio-format mp3 (your video url here)
+-f best uses best quality possible for the download
+-x says to extract (mine uses ffmpeg, which has its own install process)
+the last flag is to make sure I get out mp3 audio files
+
 #### Skimming Manuals
 This section explains how to search documentation for the specific issues 
 
